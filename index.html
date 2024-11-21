@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Admission Form</title>
+  <link rel="stylesheet" href="today.css">
+</head>
+
+
+<!-- change this time git logic-->
+
+<body>
+  <div class="container">
+    <h2>Student Admission Form</h2>
+    <form id="admissionForm">
+      <div class="form-group">
+        <label class="box-text" for="FirstName"> Student Name :</label>
+        <input class="box-input" id="FirstName" name="FirstName" type="text" required placeholder="First Name">
+        <label class="box-text" for="MiddleName"> Middle Name :</label>
+        <input class="box-input" id="MiddleName" name="MiddelName" type="text" required placeholder="Middle Name">
+        <label class="box-text" for="LastName"> Last Name :</label>
+        <input class="box-input" id="LastName" name="LastName" type="text" required placeholder="Last Name">
+      </div></form>
+      <form id="admissionForm-1">
+      <div class="form-group">
+        <label class="box-text" for="First Name"> Father's Name :</label>
+        <input class="box-input" id="FFirstName" name="Father'sFirstName" type="text" required placeholder="First Name">
+        <label class="box-text" for="Middle Name"> Middle Name :</label>
+        <input class="box-input" id="FMiddleName" name="Father'sMiddleName" type="text" required placeholder="Middle Name">
+        <label class="box-text" for="Last Name"> Last Name :</label>
+        <input class="box-input" id="FLastName" name="Father'sLastName" type="text" required placeholder="Last Name">
+      </div></form>
+      <form id="admissionForm-2">
+      <div class="form-group-g">
+        <label class="box-text" for="Date of Bith">Date of Birth :</label>
+        <input class="box-date" id="Dob" name="Dob" type="date" required> 
+        <label class="box-text" id="Gander" for="Gander"> Gander:</label>
+        <label class="box-text" for="Gander">Male:</label>
+        <input  type="radio" id="Gander" name="Gander" value="Male">
+        <label class="box-text" for="Gander">Female:</label>
+        <input  type="radio" id="Gander" name="Gander" value="Female">
+        <label class="box-text" for="marital Status">Marital Status :</label>
+        <select name="maritalStatus" id="MaritalStatus">
+            <option class="option" value="">-Select Marital Status-</option>
+            <option class="option" value="Single">Single</option>
+            <option class="option" value="Married">Married</option>
+            </select>
+        <label class="box-text" for="Category">Category :</label>
+        <label class="box-text" for="Category">GEN</label>
+        <input type="radio" id="Category" name="Category" value="GEN">
+        <label class="box-text" for="Category">OBC</label>
+        <input  type="radio" id="Category" name="Category" value="OBC">
+        <label class="box-text" for="Category">ST</label>
+        <input  type="radio" id="Category" name="Category" value="ST">
+        <label class="box-text" for="Category">SC</label>
+        <input  type="radio" id="Category" name="Category" value="SC">
+      </div>
+      </form>
+      <form id="admissionForm-3">
+      <div class="form-group">
+        <label class="box-text" for="Country Name :">Country Name :</label>
+        <select class="box-select" id="Contry" name="Country Name" required placeholder="Country">
+       <option>-------Select--------</option>
+        <option>INDIA</option>
+        <option>RUSSIA</option>
+        <option>CANADA</option>
+        <option>U.S.A.</option>
+        <option>CHINA</option>
+        <option>BRAZIL</option>
+        <option>AUSTRALIA</option>
+        </select>
+        <label class="box-text" for="State Name :">State Name :</label>
+        <input class="box-input" id="StateName" name="StateName" type="State Name :" required placeholder="State">
+        <label class="box-text" for="City Name :">City Name :</label>
+        <input class="box-input" id="CityName" name="CityName" type="City Name :" required placeholder="City">
+      </div>
+      </form>
+      <form id="admissionForm-4">
+      <div class="form-group">
+        <label class="box-text" for="Phone No."> Student Phone No.</label>
+        <input class="box-input-1" type="tel" name="Student Phone No" pattern="[0-9]{5}[0-9]{5}" placeholder="1234567890" required>
+        
+        <label class="box-text" for="Phone No."> Father Phone No.</label>
+        <input class="box-input-1" type="tel"  name="Father Phone No" pattern="[0-9]{5}[0-9]{5}" placeholder="1234567890" required>
+
+        <label class="box-text" for="Phone No."> Other Phone No.</label>
+        <input class="box-input-1" type="tel" name="Other Phone No" pattern="[0-9]{5}[0-9]{5}" placeholder="1234567890" required>
+      </div>
+      </form>
+      <form id="admissionForm-5">
+      <div class="form-group">
+        <label class="box-text" for="email"> Student Email :</label>
+        <input class="box-input" type="email" name="Student Email" required placeholder="user@gmail.com">
+        <label class="box-text" for="email"> Father Email :</label>
+        <input class="box-input" type="email" name="Father Email" required placeholder="user@gmail.com">
+        <label class="box-text" for="email"> Other Email :</label>
+        <input class="box-input" type="email" name="Other Email" required placeholder="user@gmail.com">
+      </div>
+      </form>
+      <form id="admissionForm-6">
+      <div class="edc">
+      <div class="form-group">
+        <label class="box-text" for="Secondary">Secondary Year :</label>
+        <select name="Year" id="Year">
+        <option>-----Select-----</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018 </option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011 </option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+        <option>2006</option>
+        <option>2005 </option>
+        <option>2004</option>
+        <option>2003</option>
+        <option>2002</option>
+        <option>2001</option>
+        <option>2000</option>
+        </select>
+    </select>
+    <label class="box-text" for="Board/University"> Board/University :</label>
+    <input class="box-input-a-3" type="text" name="Board/University" required placeholder="Board/University">
+    <label class="box-text" for=""> Percentage/CGPA :</label>
+    <input class="box-input-b-3" type="text" name="Percentage/CGPA" required >
+    <label class="box-text" for="Subjects"> Subjects :</label>
+    <input class="box-input-c-3" type="text" name="Subjects" required placeholder="Subjects">
+    <label class="box-text-1" for="DOCUMENT"> Upload Document :</label>
+    <input type="file" class="file" name="Upload Document" required>
+      </div>
+    </form>
+    <form id="admissionForm-7">
+      <div class="form-group">
+        <label class="box-text" for="Sr. Secondary">Sr.Secondary Year :</label>
+        <select name="Year" id="Year">
+        <option>-----Select-----</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018 </option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011 </option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+        <option>2006</option>
+        <option>2005 </option>
+        <option>2004</option>
+        <option>2003</option>
+        <option>2002</option>
+        <option>2001</option>
+        <option>2000</option>
+        </select>
+    </select>
+    <label class="box-text" for="Board/University"> Board/University :</label>
+    <input class="box-input-a-3" type="text" name="Board/University" required placeholder="Board/University">
+    <label class="box-text" for="Percentage/CGPA"> Percentage/CGPA :</label>
+    <input class="box-input-b-3" type="text" name="Percentage/CGPA" required >
+    <label class="box-text" for="Subjects"> Subjects :</label>
+    <input class="box-input-c-3" type="text" name="Subjects" required placeholder="Subjects">
+    <label class="box-text-1" for="DOCUMENT"> Upload Document :</label>
+    <input type="file" class="file" name="Upload Document" required>
+      </div>
+    </form>
+    <form id="admissionForm-8">
+      <div class="form-group">
+        <label class="box-text" for="Graduation">Graduation Year :</label>
+<select name="Year" id="Year">
+<option>-----Select-----</option>
+<option>2024</option>
+<option>2023</option>
+<option>2022</option>
+<option>2021</option>
+<option>2020</option>
+<option>2019</option>
+<option>2018 </option>
+<option>2017</option>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011 </option>
+<option>2010</option>
+<option>2009</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005 </option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+</select>
+</select>
+<label class="box-text" for="Board/University"> Board/University :</label>
+<input class="box-input-a-3" type="text" name="Board/University" required placeholder="Board/University">
+<label class="box-text" for="Percentage/CGPA"> Percentage/CGPA :</label>
+<input class="box-input-b-3" type="text" name="Percentage/CGPA" required >
+<label class="box-text" for="Subjects"> Subjects :</label>
+<input class="box-input-c-3" type="text" name="Subjects" required placeholder="Subjects">
+
+<label class="box-text-1" for="DOCUMENT">Upload Document :</label>
+<input type="file" class="file" name="Upload Document" required>
+      </div>
+    </form>
+    <form id="admissionForm-9">
+      <div class="form-group">
+        <label class="box-text" for="PostGraduation">PostGraduation Year:</label>
+<select name="Year" id="Year">
+<option>-----Select-----</option>
+<option>2024</option>
+<option>2023</option>
+<option>2022</option>
+<option>2021</option>
+<option>2020</option>
+<option>2019</option>
+<option>2018</option>
+<option>2017</option>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+</select>
+</select>
+<label class="box-text" for="Board/University"> Board/University :</label>
+<input class="box-input-a-3" type="text" name="Board/University" required placeholder="Board/University">
+<label class="box-text" for="Percentage/CGPA"> Percentage/CGPA :</label>
+<input class="box-input-b-3" type="text" name="Percentage/CGPA" required >
+<label class="box-text" for="Subjects"> Subjects :</label>
+<input class="box-input-c-3" type="text" name="Subjects" required placeholder="Subjects">
+<label class="box-text-1" for="DOCUMENT"> Upload Document :</label>
+<input type="file" class="file" name="Upload Document" required>
+      </div>
+    </form>
+    <form id="admissionForm-10">
+      <div class="form-group">
+        <label class="box-text" for="Others">Others Year :</label>
+<select name="Year" id="Year">
+<option>-----Select-----</option>
+<option>2024</option>
+<option>2023</option>
+<option>2022</option>
+<option>2021</option>
+<option>2020</option>
+<option>2019</option>
+<option>2018</option>
+<option>2017</option>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+</select>
+</select>
+<label class="box-text" for="Board/University"> Board/University :</label>
+<input class="box-input-a-3" type="text" name="Board/University" required placeholder="Board/University">
+<label class="box-text" for="Percentage/CGPA"> Percentage/CGPA :</label>
+<input class="box-input-b-3" type="text" name="Percentage/CGPA" required >
+<label class="box-text" for="Subjects"> Subjects :</label>
+<input class="box-input-c-3" type="text" name="Subjects" required placeholder="Subjects">
+<label class="box-text-1" for="DOCUMENT"> Upload Document :</label>
+<input type="file" class="file" name="Upload Document" required>
+      </div>
+    </div>
+  </form>
+  <form id="admissionForm-11">
+      <div class="form-group">
+        <label class="box-text-course" for="Course" name="Course" >Course :</label>
+<select name="Course">
+<option>---Select---</option>
+<option>Software Engineers</option>
+<option>Web Developer</option>
+<option>Mobile Developer</option>
+<option>Video game Programmer</option>
+<option>Information Security Analysts</option>
+</select>
+
+<label class="box-text-course" for="Programming Languages">Programming Languages :</label>
+<select name="Programming Languages" >
+<option>---Select---</option>
+<option>C and C++</option>
+<option>Java</option>
+<option>.Net</option>
+<option>Python</option>
+<option>PHP</option>
+</select>
+
+<label class="box-text-course" for="Stream ">Stream :</label>
+<select name="Stream">
+<option>---Select---</option>
+<option>Front-End Developer</option>
+<option>Back-End Developer</option>
+<option>Full Stack Developer</option>
+<option>Full Developer</option>
+<option>Developer</option>
+</select>
+
+<label class="box-text-course" for="Session">Session :</label>
+<select name="Session">
+<option>---Select---</option>
+<option>10:30 To 12:00</option>
+<option>12:15 To 02:00</option>
+<option>02:15 To 04:00</option>
+<option>04:15 To 06:00</option>
+<option>06:15 To 08:00</option>
+</select>
+
+<label class="box-text-course" for="Mode of Study">Mode of Study :</label>
+<select name="Mode of Study" >
+<option>---Select---</option>
+<option>Offline Class</option>
+<option>Online Class</option>]
+</select>
+      </div>
+      </form>
+      <form id="admissionForm-12">
+      <div class="form-group">
+        <strong>
+          <label class="box-text" for="USERNAME"> USERNAME : </label>
+          <input class="box-input-password" type="username" name="UserId" required>
+          <label class="box-text" for="PASSWORD"> PASSWORD : </label>
+          <input class="box-input-password" type="password" name="Password" required>
+          </strong>
+          <input class="box-input" name="verifiy" type="button" onclick="alert('Please Check Properly User Id And Password')" value="Student's Instructions">          
+      </div>
+      </form>
+      <form id="admissionForm-13">
+      <div class="form-group-checkbox">
+        <div class="container-box">
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-1" name="Baseball" >
+              <label for="checkbox-1">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Baseball</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-2" name="Cricket">
+              <label for="checkbox-2">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Cricket</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-3" name="Football">
+              <label for="checkbox-3">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Football</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-4" name="Tennis">
+              <label for="checkbox-4">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Tennis</span>
+          </div>
+          
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-5" name="Golf">
+              <label for="checkbox-5">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Golf</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-6" name="Table Tennis">
+              <label for="checkbox-6">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Table Tennis</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-7" name="Volleyball">
+              <label for="checkbox-7">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Volleyball</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-8" name="Four Square">
+              <label for="checkbox-8">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Four Square</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-9" name="Hockey">
+              <label for="checkbox-9">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Hockey</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-10" name="Badminton">
+              <label for="checkbox-10">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Badminton</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-11" name="Ball Games">
+              <label for="checkbox-11">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Ball Games</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-12" name="Cornhole">
+              <label for="checkbox-12">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Cornhole</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-13" name="Bowling">
+              <label for="checkbox-13">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Bowling</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-14" name="Boxing">
+              <label for="checkbox-14">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Boxing</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-15" name="Cue Sports">
+              <label for="checkbox-15">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Cue Sports</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-16" name="Padel">
+              <label for="checkbox-16">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Padel</span>
+          </div>
+          
+          <div class="checkbox">
+              <input type="checkbox" id="checkbox-17" name="Baseball">
+              <label for="checkbox-17">
+                <div class="tick_mark"></div>
+              </label>
+          <span>Baseball</span>
+          </div>
+          </div>
+      </div>
+      </form>
+      <form id="admissionForm-14">
+      <div class="form-group">
+        <p class="box-text-p" for="Running"> Last Running Score  : </p>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange" name="Last Running Score 1Km Speed ">
+          <p>Value: <span id="demo" name="Value:"></span></p>
+
+        </div>
+      </div>
+      </form>
+      <form id="admissionForm-15">
+      <div class="form-group">
+        <label class="box-text-reg" for="Registration Fee"> Registration Fee : </label>
+        <input class="box-input-reg" name="Registration Fee" type="text" required>
+        <label class="box-text-reg" for="Enrollment Fee">Enrollment Fee :</label>
+        <input class="box-input-reg" name="Enrollment Fee" type="text" required>
+        <label class="box-text-reg" for="Tuition Fee"> Tuition Fee : </label>
+        <input class="box-input-reg" name="Tuition Fee" type="text" required>
+        <label class="box-text-reg" for="Fess Mode"> Fees Mode : </label>
+        <select name="FeesMode">
+            <option>---Select---</option>
+            <option>Online Pay</option>
+            <option>Cash Pay</option>
+            <option>Pay with Cheque </option>
+        </select>
+            <label class="box-text-reg" for="Payment Date Time"> Transaction Date Time : </label>
+            <input class="box-input-reg-date" name="Transaction Date Time" type="datetime-local" required>
+      </div>
+     
+      <button type="button" onclick="printPreview() ">Print Preview</button>
+    </form>
+  </div>
+
+  <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+  <script>
+    function printPreview() {
+      // Gather form data
+      const form = document.getElementById('admissionForm');
+      const formData = new FormData(form);
+      let previewContent = `<h2>Student Admission Form</h2>`;
+
+      // Format form data for preview
+      formData.forEach((value, key) => {
+        previewContent += `<div class="data-0"><p class="p-0"><strong class="strong-0">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+
+     // <!--my game start-->
+      // Gather form data-1
+      const formA = document.getElementById('admissionForm-1');
+      const formDataA = new FormData(formA);
+      let previewContentA = `<h2></h2>`;
+
+      // Format form data for preview-1
+      formDataA.forEach((value, key) => {
+        previewContentA += `<div class="data-1"><p class="p-1"><strong class="strong-1">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-2
+      const formB = document.getElementById('admissionForm-2');
+      const formDataB = new FormData(formB);
+      let previewContentB = `<h2></h2>`;
+
+      // Format form data for preview-2
+      formDataB.forEach((value, key) => {
+        previewContentB += `<div class="data-2"><p class="p-2"><strong class="strong-2">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-3
+      const formC = document.getElementById('admissionForm-3');
+      const formDataC = new FormData(formC);
+      let previewContentC = `<h2></h2>`;
+
+      // Format form data for preview-3
+      formDataC.forEach((value, key) => {
+        previewContentC += `<div class="data-3"><p class="p-2"><strong class="strong-2">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-4
+      const formD = document.getElementById('admissionForm-4');
+      const formDataD = new FormData(formD);
+      let previewContentD = `<h2></h2>`;
+
+      // Format form data for preview-4
+      formDataD.forEach((value, key) => {
+        previewContentD += `<div class="data-4"><p class="p-2"><strong class="strong-2">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-5
+      const formE= document.getElementById('admissionForm-5');
+      const formDataE = new FormData(formE);
+      let previewContentE = `<h2></h2>`;
+
+      // Format form data for preview-5
+      formDataE.forEach((value, key) => {
+        previewContentE += `<div class="data-5"><p class="p-2"><strong class="strong-2">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-6
+      const formF = document.getElementById('admissionForm-6');
+      const formDataF = new FormData(formF);
+      let previewContentF = `<h2></h2>`;
+
+      // Format form data for preview-6
+      formDataF.forEach((value, key) => {
+        previewContentF += `<div><p class="p-6"><strong class="strong-6">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-7
+      const formG = document.getElementById('admissionForm-7');
+      const formDataG = new FormData(formG);
+      let previewContentG = `<h2></h2>`;
+
+      // Format form data for preview-7
+      formDataG.forEach((value, key) => {
+        previewContentG += `<div><p class="p-7"><strong class="strong-7">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-8
+      const formH = document.getElementById('admissionForm-8');
+      const formDataH = new FormData(formH);
+      let previewContentH = `<h2></h2>`;
+
+      // Format form data for preview-5
+      formDataH.forEach((value, key) => {
+        previewContentH += `<div><p class="p-8"><strong class="strong-8">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-9
+      const formI = document.getElementById('admissionForm-9');
+      const formDataI = new FormData(formI);
+      let previewContentI = `<h2></h2>`;
+
+      // Format form data for preview-9
+      formDataI.forEach((value, key) => {
+        previewContentI += `<div><p class="p-9"><strong class="strong-9">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-10
+      const formJ = document.getElementById('admissionForm-10');
+      const formDataJ = new FormData(formJ);
+      let previewContentJ = `<h2></h2>`;
+
+      // Format form data for preview-10
+      formDataJ.forEach((value, key) => {
+        previewContentJ += `<div><p class="p-10"><strong class="strong-10">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-11
+      const formK = document.getElementById('admissionForm-11');
+      const formDataK = new FormData(formK);
+      let previewContentK = `<h2></h2>`;
+
+      // Format form data for preview-11
+      formDataK.forEach((value, key) => {
+        previewContentK += `<div class="data-11"><p class="p-11"><strong class="strong-11">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-12
+      const formL = document.getElementById('admissionForm-12');
+      const formDataL = new FormData(formL);
+      let previewContentL = `<h2></h2>`;
+
+      // Format form data for preview-12
+      formDataL.forEach((value, key) => {
+        previewContentL += `<div class="data-12"><p class="p-2"><strong class="strong-12">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-13
+      const formM = document.getElementById('admissionForm-13');
+      const formDataM = new FormData(formM);
+      let previewContentM = `<h2></h2>`;
+
+      // Format form data for preview-13
+      formDataM.forEach((value, key) => {
+        previewContentM += `<div><p class="p-2"><strong class="strong-2">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-14
+      const formN = document.getElementById('admissionForm-14');
+      const formDataN = new FormData(formN);
+      let previewContentN = `<h2></h2>`;
+
+      // Format form data for preview-14
+      formDataN.forEach((value, key) => {
+        previewContentN += `<div><p class="p-2"><strong class="strong-14">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+
+      // Gather form data-15
+      const formO = document.getElementById('admissionForm-15');
+      const formDataO = new FormData(formO);
+      let previewContentO = `<h2></h2>`;
+
+      // Format form data for preview-15
+      formDataO.forEach((value, key) => {
+        previewContentO += `<div class="data-15"><p class="p-2"><strong class="strong-15">${key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> ${value}</p></div>`;
+       
+      });
+      
+
+
+      // Open a new window for print preview
+      const previewWindow = window.open('', '_blank', 'width=600, height=700');
+      previewWindow.document.write(`
+        <html>
+          <head>
+            <title>Form Preview</title>
+            <style>
+
+
+              body {
+            font-family: Arial, sans-serif;
+            background-image: url(./b6.jpg);
+            background-size:cover;
+              }
+
+
+              h2 { text-align: center;  border: solid 2px black;
+              background-color: rgba(255, 255, 255, 0.7);
+              }
+
+              .data-0{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 8%; 
+              margin-left: 8%;
+              position: relative;
+              }
+              
+              .p-0{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+              .strong-0{
+              color: red;
+              }
+              .strong-1{
+              color: red;
+              }
+              .strong-2{
+              color: red;
+              }
+
+              .data-1{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 8%; 
+              margin-left: 8%;
+              position: relative;
+              }
+              
+              .p-1{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+              .data-2{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 7%; 
+              margin-left: 7%;
+              position: relative;
+              }
+              
+              .p-2{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+
+              .data-3{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 9%; 
+              margin-left: 9%;
+              position: relative;
+              }
+              
+              .p-2{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+              .data-4{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 7%; 
+              margin-left: 7%;
+              position: relative;
+              }
+              
+              .p-4{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+
+              .data-5{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 2%; 
+              margin-left: 2%;
+              position: relative;
+              }
+              
+              .p-2{
+              font-size:18px; 
+              font-weight:bold;
+              color: black;
+
+              }
+
+              
+              .strong-6{
+              font-weight:bold;
+              padding-left: 5%;
+              color: red;
+              }
+              
+              
+              .strong-7{
+              font-weight:bold;
+              padding-left: 5%;
+              color: red;
+              }
+              .strong-8{
+              font-weight:bold;
+              padding-left: 5%;
+              color: red;
+              }
+              .strong-9{
+              font-weight:bold;
+              padding-left: 5%;
+              color: red;
+              }
+              .strong-10{
+              font-weight:bold;
+              padding-left: 5%;
+              color: red;
+              }
+
+              .data-11{
+              display: inline-block;
+              justify-content: center;
+              margin-right: auto%; 
+              margin-left: auto%;
+              position: relative;
+              }
+              .strong-11{
+              font-weight:bold;
+              padding-left: 20px;
+              color: red;
+              }
+
+              .data-12{
+              display: inherit;
+              justify-content: center;
+              position: relative;
+              }
+              .strong-12{
+              font-weight:bold;
+              color: red;
+              }
+              .strong-14{
+              font-weight:bold;
+              color: red;
+              }
+              .data-15{
+              display: inline-block;
+              justify-content: center;
+              margin-right: 2%; 
+              margin-left: 2%;
+              position: relative;
+              }
+              .strong-15{
+              font-weight:bold;
+              color: red;
+              }
+              
+              button{
+              background-color: #f51a1a;
+              border: none; 
+              color: white; 
+              padding: 15px 30px; 
+              border-radius:10px;
+               font-size: 16px;
+               cursor: pointer; 
+              }
+              button:hover{
+             background-color: #010101;
+             color: yellow;
+            }
+            
+
+
+
+
+              @media print {
+                button { display: none; }
+              }
+              div{
+              
+              }
+           
+
+    
+              </style>
+            
+          </head>
+          <body>
+            
+            ${previewContent}
+            ${previewContentA}
+            ${previewContentB}
+            ${previewContentC}
+            ${previewContentD}
+            ${previewContentE}
+            ${previewContentF}
+            ${previewContentG}
+            ${previewContentH}
+            ${previewContentI}
+            ${previewContentJ}
+            ${previewContentK}
+            ${previewContentL}
+            ${previewContentM}
+            ${previewContentN}
+            ${previewContentO}
+            
+          <br>
+          <center>
+            <button onclick="window.print()">Print</button>
+            </center>
+          </body>
+        </html>
+        
+      `);
+      previewWindow.document.close();
+    }
+  </script>
+</body>
+
+</html>
